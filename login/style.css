@@ -1,0 +1,32 @@
+* {
+  margin: 0 auto;
+  margin-top: 40px;
+}
+/* heading */
+#h {
+  text-align: center;
+}
+/* main and dashboard div */
+.main_page,
+#dash_page {
+  background-color: lightblue;
+  height: 25em;
+  width: 20em;
+  border: 2px solid black;
+  padding: 40px;
+}
+/* targrting both buttons */
+#btn,
+#btn_out {
+  margin-left: 8em;
+  width: 8em;
+  height: 4em;
+  font-size: 9px;
+  background-color: rgb(255, 179, 151);
+}
+/* adding hover to both buttons */
+#btn:hover,
+#btn_out:hover{
+  background-color: rgb(235, 94, 43);
+  color: aliceblue;
+}

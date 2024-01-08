@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- main login div -->
+    <div class="main_page">
+      <h1 id="h">Login</h1>
+      <form id="login-form">
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username" /><br />
+        <label for="password">Password : </label>
+        <input type="text" id="password" name="password" />
+        <button id="btn" type="submit">Login</button>
+      </form>
+    </div>
+    <!-- dash div -->
+    <div id="dash_page" style="display: none">
+      <h1 id="h">Logout</h1>
+      <p id="h">welcome to dashboard</p>
+      <button id="btn_out" type="submit">logout</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
